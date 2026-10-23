@@ -4,9 +4,8 @@ An experiment: run the PlayStation VR2 on Linux with everything the headset can 
 
 What works: the display at 120 Hz in direct mode, head tracking from the headset's own SLAM, eye tracking, both Sense controllers with full 6DoF tracking, buttons, sticks, touch, battery and haptics. The controllers appear as Oculus Touch controllers, so game bindings work unchanged.
 
-![the test tool: four camera views with the LED detections and the fitted controllers](docs/tool.png)
-
-![front camera pair with the fitted LED rings](docs/tracking.png)
+![front camera pair with the fitted LED rings](docs/test.jpg)
+![steamvr view](docs/steamvr.jpg)
 
 ## How it works
 
