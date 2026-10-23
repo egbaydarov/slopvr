@@ -1,0 +1,23 @@
+{
+	"driver_slopvr": {
+		"enable": true,
+		"loadPriority": 100,
+		"displayFrequency": 120.0,
+		"renderWidth": 2400,
+		"renderHeight": 2448,
+		"enableControllers": true,
+		"gripPitchDeg": 0.0,
+		"forceDisplayPortTrainingMode": true,
+		"cameraMode": 0,
+		"opticalTracking": true,
+		"ledPhase": 0,
+		"ledMirrorLeft": true,
+		"ledMirrorRight": false,
+		"camYawDeg": 17.5,
+		"camPitchDeg": -27.5,
+		"camRollDeg": 2.4,
+		"camPosX": -0.038,
+		"camPosY": 0.0,
+		"camPosZ": 0.0
+	}
+}

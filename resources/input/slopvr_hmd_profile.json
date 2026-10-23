@@ -1,0 +1,25 @@
+{
+	"jsonid": "input_profile",
+	"controller_type": "slopvr_hmd",
+	"device_class": "TrackedDeviceClass_HMD",
+	"resource_root": "slopvr",
+	"driver_name": "slopvr",
+	"input_bindingui_mode": "hmd",
+	"input_bindingui_right": { "image": "{indexhmd}/icons/indexhmd.svg" },
+	"input_source": {
+		"/input/system": { "type": "button", "click": true, "order": 1, "binding_image_point": [127, 62] },
+		"/proximity": { "type": "proximity", "binding_image_point": [63, 100] },
+		"/pose/raw": { "type": "pose", "binding_image_point": [63, 148] }
+	},
+	"default_bindings": [
+		{ "app_key": "openvr.component.vrcompositor", "binding_url": "vrcompositor_bindings_slopvr_hmd.json" }
+	],
+	"simulation_settings": {
+		"modelnumber": "PlayStation VR2",
+		"serialnumber": "PSVR2",
+		"rendermodel": "generic_hmd",
+		"registered_device_type": "sony/psvr2",
+		"tracking_system_name": "slopvr",
+		"manufacturer_name": "Sony"
+	}
+}
